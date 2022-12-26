@@ -75,13 +75,13 @@ body {
 
 .section__next {
   background-color: var(--white);
-  padding: 0 0 10rem 0;
+  padding: 0 0 8rem 0;
 }
 
-.title {
+.title__next {
   text-align: center;
   font-size: 4rem;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--dark-blue);
   margin-bottom: 1.5rem;
 }
@@ -110,11 +110,44 @@ body {
   padding: 1.4rem 3rem;
 }
 
+/* section-choose */
+
 .section__choose {
   background-color: var(--very-light-gray);
-  text-align: center;
+}
+
+.title__choose {
+  color: var(--dark-blue);
+  font-size: 3.5rem;
+  font-weight: 400;
+  max-width: 59%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  padding-top: 2em;
+}
+
+.subtitle__choose {
+  color: var(--dark-blue);
+  font-size: 2rem;
+  font-weight: 300;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.subtitle__banking {
+  max-width: 44%;
+}
+
+.subtitle__api {
+  max-width: 27%;
+}
+
+.copy__choose {
+  margin-bottom: 4.5rem;
 }
 
 .icon__choose { 
   margin: 0 auto;
+  margin-bottom: 3rem;
 }
