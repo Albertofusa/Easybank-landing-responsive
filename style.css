@@ -200,7 +200,7 @@ body {
   font-weight: 400;
 }
 
-.copy__articles3 {
+.copy__articles__font {
   font-size: 1.37rem;
 }
 
@@ -247,6 +247,10 @@ a {
 .copy__footer {
   font-size: 1.3rem;
   color: var(--grayish-blue);
+}
+
+.content__footer__links {
+  display: none;
 }
 
 /* mediaqueries solo imagen choose */
@@ -399,4 +403,59 @@ a {
   }
 
   /* section articles  */
+
+  .title__articles {
+    text-align: left;
+    margin-bottom: 4rem;
+  }
+
+  .grid__articles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+
+  .image__money {
+    height: 43%;
+  }
+
+  .copy__articles__font {
+    font-size: 1.29rem;
+  }
+
+  .font__articles {
+    font-size: 1.26rem;
+  }
+
+  /* footer */
+
+  .grid__footer {
+    display: grid;
+    grid-template-columns: repeat(3, 20%) 40%;
+  }
+
+  .content__links {
+    display: none;
+  }
+
+  .content__footer__links {
+    display: grid;
+  }
+
+  .footer a {
+    color: var(--light-grayish-blue);
+  }
+
+  .button__footer {
+    margin-top: 0;
+    margin-bottom: 3rem;
+  }
+
+  .box__grid__footer {
+    place-self: end;
+  }
+
+  .content__icons {
+    margin-bottom: 0;
+  }
 }
