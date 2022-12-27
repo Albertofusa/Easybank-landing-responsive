@@ -17,10 +17,22 @@
     <!-- header -->
 
     <header class="header">
-      <div class="container--header">
+      <div class="container--header container__desktop">
         <nav class="navbar__mobile">
           <img src="/images/logo.svg" alt="logo" />
-          <img src="/images/icon-hamburger.svg" alt="icon-menu" />
+          <img
+            class="icon__mobile"
+            src="/images/icon-hamburger.svg"
+            alt="icon-menu"
+          />
+          <div class="content__links__desktop">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Blog</a>
+            <a href="#">Careers</a>
+            <a class="button button__desktop" href="#">Request Invite</a>
+          </div>
         </nav>
       </div>
     </header>
@@ -28,31 +40,32 @@
 
     <main>
       <!-- section-background-img-&-img -->
-
-      <section class="section__background-img">
-        <div class="container--padding">
-          <img
-            class="image__phone"
-            src="/images/image-mockups.png"
-            alt="phones"
-          />
-        </div>
-      </section>
-      <!-- section-next -->
-
-      <section class="section__next">
-        <div class="container--padding">
-          <h1 class="title__next">Next generation digital banking</h1>
-          <p class="copy__next copy__margin">
-            Take your financial life online. Your Easybank account will be a
-            one-stop-shop for spending, saving, budgeting, investing, and much
-            more.
-          </p>
-          <div class="button__box">
-            <button class="button button-margin">Request Invite</button>
+      <div class="display__main">
+        <section class="section__background-img section__background-img__desktop">
+          <div class="container--padding container--padding__desktop--background">
+            <img
+              class="image__phone"
+              src="/images/image-mockups.png"
+              alt="phones"
+            />
           </div>
-        </div>
-      </section>
+        </section>
+        <!-- section-next -->
+
+        <section class="section__next">
+          <div class="container--padding container--padding__desktop">
+            <h1 class="title__next">Next generation digital banking</h1>
+            <p class="copy__next copy__margin">
+              Take your financial life online. Your Easybank account will be a
+              one-stop-shop for spending, saving, budgeting, investing, and much
+              more.
+            </p>
+            <div class="button__box">
+              <button class="button">Request Invite</button>
+            </div>
+          </div>
+        </section>
+      </div>
       <!-- section__choose -->
 
       <section class="section__choose">
@@ -122,7 +135,7 @@
           <!-- article-1 -->
           <article class="box__articles">
             <img
-              class="imagen__articles"
+              class="imagen__articles image__money"
               src="/images/image-currency.jpg"
               alt="image-currency"
             />

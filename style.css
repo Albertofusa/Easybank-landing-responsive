@@ -52,6 +52,12 @@ body {
   align-items: center;
 }
 
+.content__links__desktop {
+  display: none;
+  align-items: center;
+  gap: 5rem;
+}
+
 /* section__background-img */
 
 .section__background-img {
@@ -121,7 +127,7 @@ body {
   color: var(--dark-blue);
   font-size: 3.5rem;
   font-weight: 400;
-  max-width: 59%;
+  max-width: 60%;
   margin: 0 auto;
   margin-bottom: 1.5rem;
 }
@@ -251,4 +257,184 @@ a {
 .copy__footer {
   font-size: 1.3rem;
   color: var(--grayish-blue);
+}
+
+/* mediaqueries solo para el titulo,subtitulos choose */
+
+@media (min-width: 400px) {
+  .title__choose {
+    max-width: 56%;
+  }
+
+  .subtitle__choose {
+    max-width: 48%;
+  }
+
+  .subtitle__api {
+    max-width: 25%;
+  }
+}
+
+/* mediaqueries solo para el titulo,subtitulos choose */
+
+@media (min-width: 500px) {
+  .title__choose {
+    max-width: 44%;
+  }
+
+  .subtitle__choose {
+    max-width: 36%;
+  }
+
+  .subtitle__api {
+    max-width: 20%;
+  }
+}
+
+/* mediaqueries solo para el titulo,subtitulos choose */
+
+@media (min-width: 600px) {
+  .title__choose {
+    max-width: 35%;
+  }
+
+  .subtitle__choose {
+    max-width: 30%;
+  }
+
+  .subtitle__api {
+    max-width: 16%;
+  }
+
+  .image__money {
+    width: 100%;
+  }
+}
+
+/* mediaquieries de las imagenes */
+
+@media (min-width: 650px) {
+  .imagen__articles {
+    width: 100%;
+  }
+}
+
+/* mediaquieries titulos y subtitulos section choose */
+
+@media (min-width: 750px) {
+  .title__choose {
+    max-width: 30%;
+  }
+
+  .subtitle__choose {
+    max-width: 25%;
+  }
+
+  .subtitle__api {
+    max-width: 14%;
+  }
+}
+
+/* imagen en seccion background y titulos y subtitulos de choose */
+
+@media (min-width: 900px) {
+  .image__phone {
+    width: 100%;
+  }
+
+  .title__choose {
+    max-width: 23%;
+  }
+
+  .subtitle__choose {
+    max-width: 20%;
+  }
+
+  .subtitle__api {
+    max-width: 11%;
+  }
+}
+
+/* mediaquieres desktop 1200 */
+
+@media (min-width: 1200px) {
+  /* navbar */
+
+  .container__desktop {
+    padding: 2rem 5rem;
+  }
+
+  .icon__mobile {
+    display: none;
+  }
+
+  .content__links__desktop {
+    display: flex;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--grayish-blue);
+    font-size: 1.3rem;
+  }
+
+  .button__desktop {
+    margin-left: 10rem;
+  }
+
+  /* main */
+  .container--padding__desktop {
+    padding: 0 5rem;
+  }
+
+  .container--padding__desktop--background {
+    padding: 0;
+  }
+
+  .display__main {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .section__background-img,
+  .section__next {
+    flex: 1;
+  }
+
+  .section__next {
+    padding: 12rem 0 0 0;
+  }
+
+  .title__next {
+    text-align: left;
+    font-size: 5rem;
+    font-weight: 400;
+    margin-bottom: 3.5rem;
+  }
+
+  .copy__next {
+    color: var(--grayish-blue);
+    font-size: 2rem;
+    line-height: 2.8rem;
+    text-align: left;
+    margin-bottom: 4rem;
+  }
+
+  .button__box {
+    text-align: left;
+  }
+
+  .section__background-img__desktop {
+    background-image: url(/images/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top -14rem right -27rem;
+    overflow: hidden;
+  }
+
+  .image__phone {
+    position: relative;
+    top: -4rem;
+    right: -10rem;
+  }
 }
